@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+.camView {
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .camView p {
+    position: absolute;
+    padding: 5px;
+    background-color: rgb(2, 255, 2);
+    color: #000;
+    border: 1px dashed rgba(255, 255, 255, 0.7);
+    z-index: 2;
+    font-size: 12px;
+  }
+  
+  .highlighter {
+    background: rgba(11, 245, 1,0.1);
+    border: 2px solid rgb(11, 245, 11);
+    z-index: 1;
+    position: absolute;
+  }
+.desc {
+    font-size: 1.2em;
+}
+.enable-cam {
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(253, 101, 233);
+    border:2px solid rgb(253, 0, 253);
+    box-shadow: 2px 2px 1px rgba(253,0,253,0.5);
+}
+.enable-cam:hover {
+    transition: all 0.1s ease-in;
+    background-color: rgb(255, 78, 231);
+    border:2px solid rgb(221, 6, 221);
+}
+#end-cam {
+    margin-top: 20px;
+    border-radius: 20px;
+    display: none;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(253, 101, 233);
+    border:2px solid rgb(253, 0, 253);
+    width: 100%;
+    
+}
+#end-cam:hover {
+    transition: all 0.1s ease-in;
+    background-color: rgb(255, 78, 231);
+    border:2px solid rgb(221, 6, 221);
+}
+
+#video {
+    display: none;
+}
