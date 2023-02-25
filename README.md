@@ -1,6 +1,6 @@
 # Object-detection
-object detection using tensorflowjs coco ssd and vanilla javascript
+Object detection using tensorflowjs coco ssd and vanilla javascript
 
-## Browser apperaance
+## Browser apperaace
 ![enable](./assets/enable.png)
 ![enable](./assets/webcam.png)
